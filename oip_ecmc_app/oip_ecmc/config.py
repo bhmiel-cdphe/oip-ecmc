@@ -44,7 +44,7 @@ class ECMCConfig:
 
 @spock.spock
 class ScrapeConfig:
-    years: List[int] = [2020, 2021, 2022, 2023]
+    years: List[int] = [2012, 2015, 2020, 2021, 2022, 2023]
     production_summary_base_url: str = 'https://ecmc.state.co.us/documents/data/downloads/production/'
     zip_directory: str = 'ECMC pull'
     access_db_directory: str = 'ECMC db'
